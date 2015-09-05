@@ -1,0 +1,56 @@
+#name-header {
+	padding-left: 5%;
+}
+
+.vert-align {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+a {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+h1, h2, h3 {
+	vertical-align: bottom;
+}
+
+body {
+	background-image: url("../res/sunset.JPG");
+}
+
+body {
+	margin: 0px;
+}
+
+.row {
+	margin: 0px;
+}
+
+.btn {
+	color: white;
+}
+
+.btn:hover {
+	color: #8AB8E6;
+}
+
+p {
+	color: white;
+}
+
+.name {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.links {
+	height: 10vh;
+	margin-bottom: 5%;
+}
+
+.about {
+	font-size: 2em;
+}
