@@ -19,6 +19,7 @@ h1, h2, h3 {
 
 body {
 	background-image: url("../res/sunset.png");
+	background-repeat: no-repeat;
 }
 
 body {
