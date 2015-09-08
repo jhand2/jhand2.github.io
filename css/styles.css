@@ -17,14 +17,14 @@ h1, h2, h3 {
 	vertical-align: bottom;
 }
 
-body {
-	background-image: url("../res/sunset.png");
+html {
+	background-image: url(../res/sunset.png);
 	background-repeat: no-repeat;
+	background-position: top left;
 }
 
 body {
-	margin: 0px;
-	background-size: 100%;
+	background: transparent;
 }
 
 .row {
