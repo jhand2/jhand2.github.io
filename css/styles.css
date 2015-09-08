@@ -2,6 +2,8 @@
 	padding-left: 5%;
 }
 
+:focus {outline:none !important;}
+
 .vert-align {
     display: inline-block;
     vertical-align: bottom;
