@@ -18,6 +18,8 @@ h1, h2, h3 {
 }
 
 html {
+	height: 100%;
+	background-size: cover;
 	background-image: url(../res/sunset.png);
 	background-repeat: no-repeat;
 	background-position: top left;
