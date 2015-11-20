@@ -60,3 +60,13 @@ p {
 .about {
 	font-size: 2em;
 }
+
+nav {
+	border-radius: 0px;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+	}
+}
