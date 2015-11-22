@@ -1,9 +1,8 @@
 /*Thanks to http://sixrevisions.com/css/responsive-background-image/
 for the background css*/
-html {
+body {
 	/* Location of the image */
 	background-image: url(../res/seattle-skyline-picture2.png);
-
 	/* Background image is centered vertically and horizontally at all times */
 	background-position: center center;
 
@@ -17,16 +16,21 @@ html {
 	/* This is what makes the background image rescale based
 	on the container's size */
 	background-size: cover;
+	overflow: hidden;
 
 	/* Set a background color that will be displayed
 	while the background image is loading */
-	background-color: #464646;
+	background-color: transparent;
 
 	min-height:100%;
 }
 
-body {
+html {
 	min-height:100%;
+}
+
+.text-container {
+    margin-top: 50%;
 }
 
 a, a:hover, li:hover {
@@ -131,6 +135,7 @@ a {
 	color: #cfd7e2;
 	font-family: "Papyrus";
 	font-style: italic;
+	font-weight: bold;
 }
 
 .project-info {
@@ -214,5 +219,17 @@ a {
 
 	#profile-pic {
 		display: block;
+	}
+
+	body {
+		background-image: url(../res/seattle-skyline-picture2.png);
+	}
+
+	.info-text {
+		font-weight: normal;
+	}
+
+	.text-container {
+		margin-top: 2%;
 	}
 }
