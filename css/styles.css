@@ -34,7 +34,14 @@ a, a:hover, li:hover {
 
 .nav>li>a:hover, .nav>li>a:focus, .navbar-brand:hover, .navbar-brand:focus {
     background-color: transparent;
-    color:#D87E28;
+}
+
+.nav>li>a:focus, .navbar-brand:focus {
+	color: white;
+}
+
+.nav>li>a:hover, .navbar-brand:hover {
+	color:#D87E28;
 }
 
 .project-links a {
