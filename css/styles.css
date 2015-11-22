@@ -1,6 +1,6 @@
 /*Thanks to http://sixrevisions.com/css/responsive-background-image/
 for the background css*/
-body {
+html {
 	/* Location of the image */
 	background-image: url(../res/seattle-skyline-picture2.png);
 
@@ -22,6 +22,10 @@ body {
 	while the background image is loading */
 	background-color: #464646;
 
+	min-height:100%;
+}
+
+body {
 	min-height:100%;
 }
 
