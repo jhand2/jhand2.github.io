@@ -1,5 +1,54 @@
-a, a:hover {
+/*Thanks to http://sixrevisions.com/css/responsive-background-image/
+for the background css*/
+body {
+	/* Location of the image */
+	background-image: url(../res/seattle-skyline-picture2.png);
+
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+
+	/* Background image doesn't tile */
+	background-repeat: no-repeat;
+
+	/* Background image is fixed in the viewport so that it doesn't move when 
+	the content's height is greater than the image's height */
+	background-attachment: fixed;
+
+	/* This is what makes the background image rescale based
+	on the container's size */
+	background-size: cover;
+
+	/* Set a background color that will be displayed
+	while the background image is loading */
+	background-color: #464646;
+}
+
+a, a:hover, li:hover {
 	text-decoration: none;
+	background-color: transparent;
+}
+
+.nav:hover {
+	background-color: transparent;
+}
+
+.nav>li>a:hover, .nav>li>a:focus, .navbar-brand:hover, .navbar-brand:focus {
+    background-color: transparent;
+    color:#D87E28;
+}
+
+.navbar-right {
+	margin-right: 0em;
+	margin-left: 1em;
+}
+
+a {
+	color: white;
+}
+
+nav {
+	background-color:rgba(5, 5, 5, 0.8);
+	border-radius: 0px;
 }
 
 #profile-pic {
@@ -14,6 +63,7 @@ a, a:hover {
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 	margin: 20px;
 	padding: 0px;
+	background-color: white;
 }
 
 .flex-div {
@@ -48,6 +98,7 @@ a, a:hover {
 .info-text {
 	font-size: 1.65em;
 	font-weight: bold;
+	color: #fff3e5;
 }
 
 .project-info {
@@ -81,4 +132,10 @@ a, a:hover {
 }
 .fade.ng-leave.ng-leave-active {
   opacity:0;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+	    border-radius: 0px;
+	}
 }
