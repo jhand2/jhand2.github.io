@@ -178,6 +178,11 @@ a {
     -o-animation: fadein 0.2s; /* Opera */
 }
 
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+}
+
 @keyframes fadein {
     from {
         opacity:0;
