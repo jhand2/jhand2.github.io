@@ -77,13 +77,6 @@ a {
 	border-radius: 0px;
 }
 
-#profile-pic {
-	height: 300px;
-	width: 300px;
-	border-radius: 50%;
-	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-}
-
 .project-tile {
 	border-radius: 5px;
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -116,10 +109,14 @@ a {
 }
 
 #profile-pic {
-	display: block;
+	display: none;
 	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
 .info-text {
@@ -207,5 +204,9 @@ a {
 @media (min-width: 768px) {
 	.navbar {
 	    border-radius: 0px;
+	}
+
+	#profile-pic {
+		display: block;
 	}
 }
