@@ -5,6 +5,8 @@
 	<link rel="icon" href="./res/jicon.ico" type="image/gif">
 
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -32,21 +34,29 @@
 	<script src="./js/directives/grid-directive.js"></script>
 </head>
 <body ng-app="portfolio">
-	<nav role="navigation" class="navbar">
+	<div role="navigation" class="navbar">
 		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		     </button>
 	    	<a class="navbar-brand" ui-sref="home">Jordan Hand</a>
 	    </div>
 
 
-		<div class="collapse navbar-collapse">
+		<div class="navbar-collapse collapse">
 			<ul class='navbar-right navbar-nav nav'>
 				<li><a ui-sref="projects">Projects</a></li>
 				<li><a ui-sref="resume">Resume</a></li>
 				<li><a ui-sref="contact">Find me!</a></li>
 			</ul>
 		</div>
-	</nav>
+	</div>
 
 	<div ui-view></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>

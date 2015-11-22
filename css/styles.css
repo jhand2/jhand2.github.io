@@ -40,6 +40,10 @@ a, a:hover, li:hover {
 	color: white;
 }
 
+.icon-bar {
+    background-color: white;
+}
+
 .nav>li>a:hover, .navbar-brand:hover {
 	color:#D87E28;
 }
@@ -68,7 +72,7 @@ a {
 	color: white;
 }
 
-nav {
+.navbar {
 	background-color:rgba(5, 5, 5, 0.8);
 	border-radius: 0px;
 }
