@@ -5,6 +5,11 @@
 		</div>
 		<div>
 			<p class='project-info project-title'>{{p.title}}</p>
+			<div class="project-links">
+				<a ng-show="p.githubUrl" ng-click="newTab(p.githubUrl)">Github</a>
+				<span ng-show="p.githubUrl &amp;&amp; p.hostUrl">|</span>
+				<a ng-show="p.hostUrl" ng-click="newTab(p.hostUrl)">Check it out</a>
+			</div>
 			<p class='project-info'>{{p.description}}</p>
 		</div>
 	</div>

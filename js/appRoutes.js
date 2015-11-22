@@ -15,5 +15,10 @@ angular.module('appRoutes', ['ui.router']).config(function($stateProvider, $urlR
 			url: '/projects',
 			templateUrl: './views/projects.html',
 			controller: 'ProjectsCtrl'
+		})
+		.state('contact', {
+			url: '/contact',
+			templateUrl: './views/contact.html',
+			controller:''
 		});
 });

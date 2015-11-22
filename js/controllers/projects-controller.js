@@ -9,4 +9,8 @@ angular.module('ProjectsCtrl', []).controller('ProjectsCtrl', function($scope, P
 	$scope.init = function() {
 		
 	}
+
+	$scope.newTab = function(url) {
+		window.open(url, '_blank');
+	}
 });
