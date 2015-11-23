@@ -2,7 +2,7 @@ What is the URL of this project on your student web
 server?
 
 	You can actually find this hosted at 
-	jhand.me
+	www.jhand.me (can also use jhand2.github.io)
 
 	I used github pages hosting and then had my DNS
 	reference that hosted content.
