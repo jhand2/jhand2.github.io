@@ -17,6 +17,10 @@ Approximately how many hours did it take you to complete this challenge?
 
 	8-10ish hours. Although a significant portion of that
 	was trying to host the website with my custom domain.
+	Also I spent a lot of time editing that background
+	picture of Seattle and making it look cool. And then
+	a lot of time tweaking css to make the picture cover
+	the whole screen.
 
 Did you encounter any problems in this challenge we
 should warn students about in the future?
@@ -24,5 +28,3 @@ How can we make the challenge better?
 
 	I loved this assignment. Very open ended and allowed 
 	us to make something useful
-
-	I am particularly proud of the background image. I edited it myself :)
