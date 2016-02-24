@@ -6,7 +6,11 @@ angular.module('ProjectService', []).service('ProjectService', ['$http', functio
 
     data.getProjects = function(callback) {
         var url = baseUrl + '/classes/Project';
-        $http({method:'GET', url: url, headers: { 'X-Parse-Application-Id':appId, 'X-Parse-REST-API-Key':restKey}}).success(function(res) {
+        $http({method:'GET', url: url, headers: { 
+            'X-Parse-Application-Id':appId, 
+            'X-Parse-REST-API-Key':restKey}
+        })
+        .success(function(res) {
             callback(res.results);
         });
     }
