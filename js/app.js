@@ -1,9 +1,9 @@
 angular.module('portfolio', 
-	['MainCtrl',
-	'ProjectsCtrl',
-	'ui.router', 
-	'appRoutes',
-	'ProjectService',
-	'GridDirective',
-	'ngAnimate']
+    ['MainCtrl',
+    'ProjectsCtrl',
+    'ui.router', 
+    'appRoutes',
+    'ProjectService',
+    'GridDirective',
+    'ngAnimate']
 );

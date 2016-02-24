@@ -1,16 +1,16 @@
 angular.module('ProjectsCtrl', []).controller('ProjectsCtrl', function($scope, ProjectService) {
-	$scope.projects = [];
+    $scope.projects = [];
 
-	ProjectService.getProjects(function (data) {
-		$scope.projects = data;
-		console.log(data);
-	});
+    ProjectService.getProjects(function (data) {
+        $scope.projects = data;
+        console.log(data);
+    });
 
-	$scope.init = function() {
-		
-	}
+    $scope.init = function() {
+        
+    }
 
-	$scope.newTab = function(url) {
-		window.open(url, '_blank');
-	}
+    $scope.newTab = function(url) {
+        window.open(url, '_blank');
+    }
 });
