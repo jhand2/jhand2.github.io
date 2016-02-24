@@ -4,7 +4,7 @@ angular.module('appRoutes', ['ui.router']).config(function($stateProvider, $urlR
 
     $stateProvider
         .state('home', {
-            url: '/',
+            url: '/home',
             templateUrl: './views/main.html',
             controller: 'MainCtrl'
         })
