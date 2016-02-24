@@ -1,15 +1,15 @@
 .resume {
-	display: block;
-	width: 85%;
-	margin-right: auto;
-	margin-left: auto;
-	background: white;
-	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-	border-radius: 2px;
+    display: block;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    border-radius: 2px;
 }
 
 @media (min-width: 768px) {
-	.resume {
-		width: 40%;
-	}
+    .resume {
+        width: 40%;
+    }
 }
