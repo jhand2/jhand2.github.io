@@ -1,0 +1,78 @@
+{ "results": [
+	{
+        "createdAt": "2016-09-02T04:59:46.159Z",
+        "description": "Monitors all network traffic to and from the host machine and generates meta data about traffic. A rest API and web application sit on top of the monitor to visualize the data.",
+        "githubUrl": "https://github.com/jhand2/net_monitor",
+        "objectId": "3AfySaRAI6",
+        "title": "net_monitor",
+        "updatedAt": "2016-09-02T05:00:43.343Z"
+    },
+	{
+        "createdAt": "2015-12-25T05:44:26.661Z",
+        "description": "Data visualization of cars auctioned by Seattle government departments. Used D3.js",
+        "githubUrl": "https://github.com/jhand2/seattle-car-data",
+        "hostUrl": "http://jhand.me/seattle-car-data",
+        "objectId": "CZHhzMpeZI",
+        "title": "D3 Car Data",
+        "updatedAt": "2015-12-25T05:47:55.899Z"
+    },
+	{
+        "createdAt": "2015-11-22T06:40:59.242Z",
+        "description": "Native android adventure game. Find your way out of the castle with your body in tact!",
+        "githubUrl": "https://github.com/jhand2/WML",
+        "hostUrl": "https://play.google.com/store/apps/details?id=edu.washington.jhand1.wheresmylimbs",
+        "objectId": "NVikK4HYfT",
+        "title": "Where's My Limbs",
+        "updatedAt": "2015-11-22T07:39:53.755Z"
+    },
+	{
+        "createdAt": "2015-11-22T01:01:17.342Z",
+        "description": "REST API to interface with a user-populated database of musicians made with angular, node, and mongodb",
+        "githubUrl": "https://github.com/jhand2/spin",
+        "objectId": "NvAer5Mns7",
+        "title": "Spin",
+        "updatedAt": "2015-11-22T06:56:36.888Z"
+    },
+	{
+        "createdAt": "2016-10-30T20:02:34.921Z",
+        "description": "A simple http server written in C. Designed to match functionality of python's SimpleHTTPServer.",
+        "githubUrl": "https://github.com/jhand2/chttp",
+        "objectId": "OiLslMPX5p",
+        "title": "CHTTP",
+        "updatedAt": "2016-10-30T20:03:39.478Z"
+    },
+	{
+        "createdAt": "2015-11-23T03:24:43.777Z",
+        "description": "Android application to send the same text message to a cell phone number every x minutes. Annoy your friends without all the effort",
+        "githubUrl": "https://github.com/jhand2/awty",
+        "objectId": "Rn3anNyOxv",
+        "title": "Are We There Yet?",
+        "updatedAt": "2015-11-23T03:25:50.434Z"
+    },
+	{
+        "createdAt": "2015-11-22T06:38:10.621Z",
+        "description": "A little angular app to impose your musical tastes on the masses",
+        "githubUrl": "https://github.com/jhand2/spotifydj",
+        "hostUrl": "http://students.washington.edu/jhand1/info343/spotifydj/#/",
+        "objectId": "gieZlpHSbb",
+        "title": "SpotifyDJ",
+        "updatedAt": "2015-11-22T06:56:13.094Z"
+    },
+	{
+        "createdAt": "2015-11-22T00:59:55.876Z",
+        "description": "An instant messaging web application made with node.js",
+        "githubUrl": "https://github.com/jhand2/quickchat",
+        "objectId": "pXNs9MtCfS",
+        "title": "QuickChat",
+        "updatedAt": "2015-11-22T06:56:56.451Z"
+    },
+	{
+        "createdAt": "2015-11-22T01:01:23.742Z",
+        "description": "Generates free verse poetry about any image you give it (pass it a URL) using Markov Chaining and the Clarifai API",
+        "githubUrl": "https://github.com/jhand2/PocketHipster",
+        "hostUrl": "https://pocket-hipster.herokuapp.com",
+        "objectId": "zKmQwDZvUg",
+        "title": "PocketHipster",
+        "updatedAt": "2015-11-22T06:57:13.003Z"
+    }
+] }
